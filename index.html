@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Simple Calculator</h1>
+    </header>
+    <main>
+      <div class="calculator">
+        <div class="display">0</div>
+        <div class="keypad">
+          <button class="key danger" data-key="C" data-function="clear">
+            C
+          </button>
+          <button class="key green" data-key="-/+" data-function="sign">
+            &minus;/+
+          </button>
+          <button class="key green" data-key="%" data-function="percentage">
+            %
+          </button>
+          <button
+            class="key strong green"
+            data-key="/"
+            data-function="operator"
+          >
+            &divide;
+          </button>
+          <button class="key strong" data-key="1" data-function="number">
+            1
+          </button>
+          <button class="key strong" data-key="2" data-function="number">
+            2
+          </button>
+          <button class="key strong" data-key="3" data-function="number">
+            3
+          </button>
+          <button
+            class="key strong green"
+            data-key="x"
+            data-function="operator"
+          >
+            &times;
+          </button>
+          <button class="key strong" data-key="4" data-function="number">
+            4
+          </button>
+          <button class="key strong" data-key="5" data-function="number">
+            5
+          </button>
+          <button class="key strong" data-key="6" data-function="number">
+            6
+          </button>
+          <button
+            class="key strong green"
+            data-key="-"
+            data-function="operator"
+          >
+            &minus;
+          </button>
+          <button class="key strong" data-key="7" data-function="number">
+            7
+          </button>
+          <button class="key strong" data-key="8" data-function="number">
+            8
+          </button>
+          <button class="key strong" data-key="9" data-function="number">
+            9
+          </button>
+          <button
+            class="key strong green"
+            data-key="+"
+            data-function="operator"
+          >
+            +
+          </button>
+          <button class="key strong span" data-key="0" data-function="number">
+            0
+          </button>
+          <button class="key strong" data-key="." data-function="decimal">
+            .
+          </button>
+          <button
+            class="key strong highlight"
+            data-key="="
+            data-function="equals"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>&copy; Himagiri 2024. All rights reserved.</footer>
+  </body>
+</html>
